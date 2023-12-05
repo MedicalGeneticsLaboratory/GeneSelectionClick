@@ -1,0 +1,30 @@
+Package: geneSelectionClick
+type: Package
+Title: RNA-seq Differential Expression Analysis Shiny App
+Version: 0.99.0
+Authors@R: c(
+    person("Sanae", "Esskhayry", , "sanaeesskhayry01@gmail.com", c("aut","cre")),
+    person("Ouafae", "Kaissi", , "ouafae.kaissi1@gmail.com", c("aut"))
+    )
+Maintainer: Sanae Esskhayry <sanaeesskhayry@gmail.com>
+Description: The Shiny application provides a user-friendly platform for performing detailed differential gene expression analyses for RNA-seq Data. 
+             It provides a comprehensive set of tools for processing raw FASTQ files, 
+             quality assessment, filtering, trimming, alignment to reference genomes, 
+             read counting, and identify the differentially expressed genes.
+License: LGPL (>= 2)
+Encoding: UTF-8
+Depends:
+  shiny,
+  Rqc,
+  QuasR,
+  Rsubread,
+  DT,
+  DESeq2,
+  shinydashboard,
+  shinyWidgets,
+  rtracklayer,
+  ggplot2,
+  tidyverse
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
